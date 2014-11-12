@@ -1,0 +1,4 @@
+#!/bin/sh
+
+curl -d user=$USER http://osusume.herokuapp.com/realvimtutor
+echo ok

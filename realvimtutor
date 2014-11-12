@@ -1,4 +1,4 @@
 #!/bin/sh
 
-curl -d user=$USER http://osusume.herokuapp.com/realvimtutor
+curl -s -d user=$USER http://osusume.herokuapp.com/realvimtutor > /dev/null
 echo ok
